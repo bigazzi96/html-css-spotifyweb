@@ -1,3 +1,10 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body{
 font-family: Montserrat;
 background-color: black;
@@ -5,4 +12,67 @@ color: white;
 
 li{
     list-style: none;
+}
+
+main{
+    background-color: #141922;
+}
+
+
+
+section.barra-laterale{
+    width: 20%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    height: calc(100vh - 10rem);
+    font-size: 2rem;
+    }
+
+main{
+    margin-left: 25rem;
+    z-index: 1;
+    background-color:var(--main-color);
+    opacity: .88;
+    padding: 3rem 0;
+}
+
+div.logo{
+    width: 40%;
+    padding-bottom: 4rem;
+}
+div.logo img{
+    width: 100%;
+}
+
+div.laterale{
+    width: 100%;
+}
+.utilite div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.utilite{
+    padding-bottom: 4rem;
+}
+
+.utilite div img{
+    width: 4rem;
+}
+
+.barra-laterale img{
+    width: 4rem;
+    align-items: center;
+}
+
+.playlist ul li{
+    padding-bottom: 2rem;
+}
+
+.quadrato{
+    width: 100px;
+    height: 100px;
+    background:#a3a3a3
+  }
 }
