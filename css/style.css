@@ -1,2 +1,8 @@
 body{
 font-family: Montserrat;
+background-color: black;
+color: white;
+
+li{
+    list-style: none;
+}
